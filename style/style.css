@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    
+}
+#hero{
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-contant{
+    width: 1023px;
+    height:393px ;   
+}
+.hero-contant1{
+color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 16px;
+}
+.hero-contant h1{
+color: rgb(255, 255, 255);
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+font-family: "Open Sans", sans-serif;
+margin-bottom: 24px;
+}
+.hero-contan2{
+color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 16px;
+}
+.btn-contant{
+    text-align: center;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    padding: 21px 32px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    margin:32px 0px ;
+    cursor: pointer;
+}
+
+#card-box{
+    width: 1320px;
+    margin: 50px auto;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.card{
+    width: 424px;
+    height: 525px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.card-box-sub > p{
+color: rgb(16, 16, 16);
+font-family: "Open Sans", sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center; 
+opacity: 0.8; 
+}
+.card-box-sub > h1{
+    color: rgb(16, 16, 16);
+    font-family: "Open Sans", sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card-img > img{
+    /* Rectangle 1 */
+position: static;
+width: 424px;
+height: 283px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 32px 0px;
+border-radius: 16px;
+max-width: 100%;
+}
+.card .shop{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);/* Frame 9 */
+    position: static;
+    width: 187px;
+    height: 57px;
+    /* Auto layout */
+    padding: 14px 32px 14px 32px;
+    margin: 24px 0px;
+    color: rgb(16, 16, 16);
+    font-family: "Open Sans", sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.card > h1{
+color: rgb(16, 16, 16);
+font-family: "Open Sans", sans-serif;
+font-size: 40px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card > p{
+    color: rgb(16, 16, 16);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.container > .btn-contant > .btn{
+ margin-top: 6rem;
+}
+/* about section start here */
+.food{
+    display: flex;
+}
+.food-img > img{
+width: 960px;
+height: 671px;
+left: 0;
+top: 0;
+}
+.food > .food-details{
+    width: 960px;
+    margin: 136px 65px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.food-info > h1{
+color: rgb(16, 16, 16);
+font-family: "Open Sans", sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+.food-info > p{
+opacity: 0.6;
+color: rgb(16, 16, 16);
+font-family: "Open Sans", sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+margin-bottom: 76px;
+}
+.food-info> h2{
+    color: rgb(16, 16, 16);
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+.food-info > a{
+    margin-left: 20px;
+}
+.food-info > a > i{
+    width: 44.25px;
+    height: 40px;
+    margin-top: 62px;
+}
+
+/* footer section start here */
+
+.footer-title{
+    text-align: center;
+}
+.footer-info > p {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 76px;
+}
+.footer-info > h2{
+    color: rgb(16, 16, 16);
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-info > h1{
+    color: rgb(16, 16, 16);
+font-family: "Open Sans", sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+.footer-info > a > i{
+    width: 44.25px;
+    height: 40px;
+    margin-top: 62px;
+}
+.footer-info > a{
+    margin-left: 20px;
+    margin-bottom: 134px;
+}
+.footer-me{
+    padding:137px 551px 134px ;
+}
